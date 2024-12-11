@@ -1,0 +1,44 @@
+#title {
+
+  width: 32rem;
+
+  & h4 {
+    font: var(--overline);
+    background: var(--gradient-content);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  & h1 {
+    font: var(--display-large);
+    color: var(--content-primary);
+    margin-top: 0.75rem;
+  }
+
+  & img {
+    display: inline-block;
+    margin-top: 2.25rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    filter: brightness(0) saturate(100%) invert(62%) sepia(38%) saturate(553%) hue-rotate(232deg) brightness(97%) contrast(86%);
+    transform: translateY(0.3rem);
+  }
+
+  & div {
+
+    width: 24rem;
+    & span {
+      display: inline-block;
+      font: var(--paragraph-medium);
+      color: var(--content-brand);
+      margin-top: 2.25rem;
+      margin-left: 0.15rem;
+    }
+
+    & p {
+      font: var(--paragraph-small);
+      color: var(--content-secondary);
+      margin-left: 1.65rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  align-items: center;
+  gap: 0.6875rem;
+  margin: 4rem auto 5rem auto;
+  width: 72.75rem;
+  padding-left: 0.75rem;
+
+  & img {
+    width: 2.375rem;
+    height: 2.375rem;
+  }
+
+  & h2 {
+    font: 800 1.5rem/130% var(--font-family-sora);
+    color: var(--content-primary);
+    letter-spacing: -0.04em;
+  }
+}
