@@ -1,5 +1,5 @@
 #number-picker{
-  
+
   width: 32rem;  
 
   & h3 {
@@ -127,6 +127,7 @@
       font: var(--label-medium);
       color: var(--content-primary);
       border-radius: 0.5rem;
+      cursor: pointer;
     }
   }
 }
