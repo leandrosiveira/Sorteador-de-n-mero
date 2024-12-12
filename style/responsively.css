@@ -1,0 +1,61 @@
+@media (min-width: 550px) and (max-width: 1160px) {
+  #container {
+    display: grid;
+    gap: 3rem;
+  }
+
+  header {
+    width: 35rem;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .info {
+    display: initial;
+  }
+
+  .display-none-responsively {
+    display: none;
+  }
+
+  button {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 549px) {
+  #container {
+    display: grid;
+    gap: 2rem;
+  }
+
+  header {
+    width: 20rem;
+    margin-block: 2rem 3rem;
+    padding: 0;
+    justify-content: center;
+  }
+
+  #title {
+    width: 20rem;
+    & h1{
+      font: var(--display-medium)
+    }
+  }
+
+  #number-picker {
+    width: 20rem;
+  }
+
+  .info {
+    display: initial;
+  }
+
+  .display-none-responsively {
+    display: none;
+  }
+
+  button {
+    margin-bottom: 3rem;
+  }
+}

@@ -1,6 +1,6 @@
 #number-picker{
 
-  width: 32rem;  
+  width: 32rem; 
 
   & h3 {
     font: var(--label-medium);
