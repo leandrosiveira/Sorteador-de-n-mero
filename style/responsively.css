@@ -21,6 +21,10 @@
   button {
     margin-bottom: 3rem;
   }
+
+  footer {
+    margin-bottom: 4rem;
+  }
 }
 
 @media (max-width: 549px) {
@@ -57,5 +61,9 @@
 
   button {
     margin-bottom: 3rem;
+  }
+
+  footer {
+    margin-bottom: 2.5rem;
   }
 }
