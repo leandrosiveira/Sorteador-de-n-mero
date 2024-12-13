@@ -45,6 +45,7 @@
   --display-small: 700 2rem/130% var(--font-family-sora);
 
   --overline: 700 1rem/150% var(--font-family-robotoMono);
+  --result-number: 600 3rem/150% var(--font-family-robotoMono);
 
   --paragraph-large: 600 1rem/150% var(--font-family-robotoFlex);
   --paragraph-medium: 600 0.875rem/150% var(--font-family-robotoFlex);
@@ -56,14 +57,11 @@
 
 body {
   width: 100%;
-
   background-color: var(--background-primary);
   background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.6)), url('assets/backgrounds/backgroun3x.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  color: red;
 }
 
 #container {
