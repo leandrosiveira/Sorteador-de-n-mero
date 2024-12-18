@@ -114,20 +114,19 @@
     } 
 
   }
-}
-
-.button {
-  width: 100%;
-  height: 3.5rem;
-  margin-top: 2.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  background-color: var(--background-tertiary);
-  border: none;
-  font: var(--label-medium);
-  color: var(--content-primary);
-  border-radius: 0.5rem;
-  cursor: pointer;
+  .button {
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--background-tertiary);
+    border: none;
+    font: var(--label-medium);
+    color: var(--content-primary);
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
 }

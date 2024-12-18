@@ -47,8 +47,8 @@
             <input type="number" id="start-number" name="start-number" placeholder="">
           </div>
           <div>
-            <label for="last-number">A</label>
-            <input type="number" id="last-number" name="last-number" placeholder="">
+            <label for="end-number">A</label>
+            <input type="number" id="end-number" name="end-number" placeholder="">
           </div>
         </div>
         <div id="toggle">
@@ -61,17 +61,17 @@
           <img src="style/assets/Icons/arrow.svg" alt="Icone de seta">
         </button>
       </form>
-      <div id="result-container">
+      <div id="result-container" class="display-none">
         <h3>RESULTADO DO SORTEIO</h3>
-        <div>
-          <h4>1</h4><h4>°&nbsp;RESULTADO</h4>
+        <div >
+          <h4 id="count-result"></h4><h4>°&nbsp;RESULTADO</h4>
         </div>
-        <div>
+        <div id="numbers-result">
+          <!-- <p>10</p>
           <p>10</p>
           <p>10</p>
           <p>10</p>
-          <p>10</p>
-          <p>10</p>
+          <p>10</p> -->
           <!-- <p>10</p>
           <p>10</p>
           <p>100</p>
@@ -82,24 +82,26 @@
           <p>100</p>
           <p>100</p> -->
         </div>
-        <button class="button" type="submit" name="submit-resort">
-          SORTEAR NOVAMENTE
-          <img src="style/assets/Icons/Play-Reload.svg" alt="Icone de sortear novamente">
-        </button>
-      </div>
-      <footer>
-        <div class="info display-none" >
-          <img src="style/assets/Icons/doubts.svg" alt="Icone com boneco com balão de dúvidas">
-          <span>Como funciona o sorteador de números?</span>
-          <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</p>
+        <div id="resubmit-button">
+          <P>
+            SORTEAR NOVAMENTE
   
-          <img src="style/assets/Icons/doubts.svg" alt="Icone com boneco com balão de dúvidas">
-          <span>Posso escolher o intervalo dos números?</span>
-          <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
-        </div>
-      </footer>
-       
+            <img src="style/assets/Icons/Play-Reload.svg" alt="Icone de sortear novamente">
+          </P>
+        <div>
+      </div>
     </section>
+    <footer>
+      <div class="info display-none" >
+        <img src="style/assets/Icons/doubts.svg" alt="Icone com boneco com balão de dúvidas">
+        <span>Como funciona o sorteador de números?</span>
+        <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</p>
+
+        <img src="style/assets/Icons/doubts.svg" alt="Icone com boneco com balão de dúvidas">
+        <span>Posso escolher o intervalo dos números?</span>
+        <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
+      </div>
+    </footer>
   </div>
 
 <script src="script.js"></script>

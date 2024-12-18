@@ -1,4 +1,8 @@
 @media (min-width: 550px) and (max-width: 1160px) {
+  body {
+    height: unset;
+  } 
+
   #container {
     display: grid;
     gap: 3rem;
@@ -10,24 +14,26 @@
     justify-content: center;
   }
 
+  
   .info {
     display: initial;
   }
-
+  
   .display-none-responsively {
     display: none;
   }
 
-  button {
-    margin-bottom: 3rem;
-  }
-
   footer {
     margin-bottom: 4rem;
+    width: 32rem;
   }
 }
 
 @media (max-width: 549px) {
+  body {
+    height: unset;
+  } 
+  
   #container {
     display: grid;
     gap: 2rem;
@@ -59,11 +65,8 @@
     display: none;
   }
 
-  button {
-    margin-bottom: 3rem;
-  }
-
   footer {
     margin-bottom: 2.5rem;
+    width: 20rem;
   }
 }
