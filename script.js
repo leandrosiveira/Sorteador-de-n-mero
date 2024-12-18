@@ -45,6 +45,7 @@ button.addEventListener("click", (event) => {
       pElement.textContent = allNumbers;
       numbers_result.appendChild(pElement);
     }
+
   } catch (error) {
     alert(error.message); // Mostra o erro ao usuário
   }
@@ -54,7 +55,9 @@ resubmit_button.addEventListener("click", () => {
   result.classList.add("display-none");
   number_picker.prepend(form_removed);
   count++;
+  clearInput()
 });
+
 
 function randomNumbers(start, end, amt = 1) {
   if (start > end) 
@@ -81,3 +84,13 @@ function randomNumbers(start, end, amt = 1) {
 
   return numbers;
 }
+
+function clearInput() {
+  amount.value = '';
+  start_number.value = '';
+  end_number.value = '';
+
+  amount.focus()
+
+  toggle.checked = false;
+} 
